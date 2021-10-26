@@ -80,6 +80,9 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:5.0.5.RELEASE" />
+          <element id="archive" name="health_backend-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="health_backend" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
