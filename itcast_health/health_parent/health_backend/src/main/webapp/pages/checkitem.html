@@ -225,6 +225,7 @@
             },
             //钩子函数，VUE对象初始化完成后自动执行
             created() {
+                this.findPage();
             },
             methods: {
                 //编辑
@@ -258,6 +259,15 @@
                 },
                 //分页查询
                 findPage() {
+                    var param = {
+                        currentPage: this.pagination.currentPage,
+                        pageSize: this.pagination.pageSize,
+                        queryString: this.pagination.queryString
+                    }
+                    axios.post("/checked/findPage.do",param).then((res)=>{
+                        this.pagination.total = res.data.total;
+                        this.dataList = res.data.rows;
+                    });
                 },
                 // 重置表单
                 resetForm() {
@@ -273,9 +283,31 @@
                 },
                 //切换页码
                 handleCurrentChange(currentPage) {
+                    this.pagination.currentPage = currentPage;
+                    this.findPage();
                 },
                 // 删除
                 handleDelete(row) {
+                    this.$confirm("确定删除吗？",{
+                        type: 'warning'
+                    }).then(()=>{
+                        axios.get("/checked/delete.do?id=" + row.id).then((res)=>{
+                            if(res.data.flag){
+                                this.$message({
+                                    type:'success',
+                                    message:res.data.message
+                                });
+                                this.findPage();
+                            }else{
+                                this.$message.error(res.data.message);
+                            }
+                        })
+                    }).catch(()=>{
+                        this.$message({
+                            type:'info',
+                            message:'操作已取消'
+                        });
+                    });
                 }
             }
         })
