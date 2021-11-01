@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="899c1df4-477d-4226-aced-9f666bf91467" name="Default Changelist" comment="10.31  13:00  pre over">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/impl/CheckItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +69,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.health_backend [tomcat7:run]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,6 +228,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
