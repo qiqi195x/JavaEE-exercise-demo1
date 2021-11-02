@@ -230,6 +230,26 @@
             methods: {
                 //编辑
                 handleEdit() {
+                    this.$refs['dataEditForm'].validate((valid)=>{
+                        if(valid){
+                            axios.post("/checked/edit.do",this.formData).then((res)=>{
+                                if (res.data.flag){
+                                    this.$message({
+                                        type:'success',
+                                        message:res.data.message
+                                    });
+                                }else {
+                                    this.$message.error(res.data.message);
+                                }
+                            }).finally(()=>{
+                                this.findPage();
+                                this.dialogFormVisible4Edit = false;
+                            });
+                        }else {
+                            this.$message.error("表单数据校验失败！");
+                            return false;
+                        }
+                    })
                 },
                 //添加
                 handleAdd () {
@@ -280,6 +300,14 @@
                 },
                 // 弹出编辑窗口
                 handleUpdate(row) {
+                    this.dialogFormVisible4Edit = true;
+                    axios.get("/checked/findById.do?id="+row.id).then((res)=>{
+                        if (res.data.flag){
+                            this.formData = res.data.data;
+                        }else {
+                            this.$message.error(res.data.message);
+                        }
+                    });
                 },
                 //切换页码
                 handleCurrentChange(currentPage) {

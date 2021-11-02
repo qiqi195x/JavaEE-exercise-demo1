@@ -5,40 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/classes/com/itheima/controller/CheckItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/classes/com/itheima/controller/CheckItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/CheckItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/CheckItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/pages/checkitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/logs/access_log.2021-11-01" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/logs/access_log.2021-11-01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_common/target/health_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/target/health_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/impl/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/impl/CheckItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/target/classes/com/itheima/service/impl/CheckItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/target/classes/com/itheima/service/impl/CheckItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/target/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/target/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckItemDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckItemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/service/impl/CheckItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/service/impl/CheckItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckItemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/impl/CheckItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/impl/CheckItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,16 +76,14 @@
       <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.health_service_provider [tomcat7:run]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Maven.health_backend [tomcat7:run]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,20 +140,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
         <item itemvalue="Maven.health_backend [tomcat7:run]" />
+        <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="899c1df4-477d-4226-aced-9f666bf91467" name="Default Changelist" comment="" />
+      <changelist id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="" />
       <created>1635734776688</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635734776688</updated>
       <workItem from="1635734777821" duration="8045000" />
+      <workItem from="1635817097177" duration="4463000" />
     </task>
     <task id="LOCAL-00001" summary="10.30">
       <created>1635734913292</created>
