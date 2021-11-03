@@ -12,12 +12,12 @@
         <module name="health_interface" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="health_backend" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="health_backend" target="1.8" />
       <module name="health_common" target="1.8" />
       <module name="health_interface" target="1.8" />
       <module name="health_parent" target="1.8" />
-      <module name="health_service_provider" target="1.5" />
+      <module name="health_service_provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

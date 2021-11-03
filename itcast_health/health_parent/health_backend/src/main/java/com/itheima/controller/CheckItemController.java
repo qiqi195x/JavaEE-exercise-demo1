@@ -5,10 +5,12 @@ import com.itheima.entity.PageResult;
 import com.itheima.entity.QueryPageBean;
 import com.itheima.entity.Result;
 import com.itheima.pojo.CheckItem;
-import com.itheima.service.impl.CheckItemService;
+import com.itheima.service.CheckItemService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * 体检检查项管理
@@ -64,6 +66,15 @@ public class CheckItemController {
         }catch (Exception e){
             return new Result(false,MessageConstant.QUERY_CHECKITEM_FAIL);
         }
+    }
 
+    @RequestMapping("/findAll")
+    public Result findAll(){
+        try {
+            List<CheckItem> list = checkItemService.findAll();
+            return new Result(true,MessageConstant.QUERY_CHECKITEM_SUCCESS,list);
+        }catch (Exception e){
+            return new Result(false,MessageConstant.QUERY_CHECKITEM_FAIL);
+        }
     }
 }

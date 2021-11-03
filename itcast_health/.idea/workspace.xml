@@ -4,17 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="10.31  13:00  pre over">
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkgroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/CheckGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/CheckGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckGroupDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/impl/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/impl/CheckItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/impl/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/CheckItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_parent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/CheckItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="jbr-11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_parent/health_service_provider/src/main/webapp/WEB-INF/web.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,7 +66,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.20052427" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -64,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\mygit\itcast_health\health_parent\health_service_provider\src\main\resources\com\itheima\dao" />
+      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\pages" />
       <recent name="G:\mygit\itcast_health\health_parent\health_common\src\main\java\com\itheima\pojo" />
       <recent name="G:\mygit\itcast_health\health_parent\health_common\src\main\java\com\itheima\entity" />
       <recent name="G:\mygit\itcast_health\health_parent\health_common\src\main\java\com\itheima\constant" />
-      <recent name="G:\mygit\itcast_health\health_parent\health_common\src\main\java" />
-      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\WEB-INF" />
@@ -154,7 +165,12 @@
       <option name="presentableId" value="Default" />
       <updated>1635734776688</updated>
       <workItem from="1635734777821" duration="8045000" />
-      <workItem from="1635817097177" duration="4463000" />
+      <workItem from="1635817097177" duration="15577000" />
+      <workItem from="1635918649938" duration="3188000" />
+      <workItem from="1635921894627" duration="1114000" />
+      <workItem from="1635923050376" duration="1285000" />
+      <workItem from="1635924350179" duration="299000" />
+      <workItem from="1635924685057" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="10.30">
       <created>1635734913292</created>
@@ -248,5 +264,19 @@
     <MESSAGE value="10.31  11:05  pre over" />
     <MESSAGE value="10.31  13:00  pre over" />
     <option name="LAST_COMMIT_MESSAGE" value="10.31  13:00  pre over" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
