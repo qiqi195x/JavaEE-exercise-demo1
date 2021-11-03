@@ -42,4 +42,8 @@ public class CheckGroupServiceImpl implements CheckGroupService{
         return new PageResult(page.getTotal(),page.getResult());
     }
 
+
+    public CheckGroup findById(Integer id){
+        return checkGroupDao.findById(id);
+    }
 }

@@ -28,4 +28,7 @@
         </if>
     </select>
 
+    <select id="findById" parameterType="int" resultType="com.itheima.pojo.CheckGroup">
+        select * from t_checkgroup where id = #{id}
+    </select>
 </mapper>

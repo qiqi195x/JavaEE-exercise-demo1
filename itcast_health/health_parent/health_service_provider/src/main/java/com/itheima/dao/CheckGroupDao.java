@@ -9,4 +9,5 @@ public interface CheckGroupDao {
     public void add(CheckGroup checkGroup);
     public void setCheckGroupAndCheckItem(Map map);
     public Page<CheckGroup> findByCondition(String queryString);
+    public CheckGroup findById(Integer id);
 }

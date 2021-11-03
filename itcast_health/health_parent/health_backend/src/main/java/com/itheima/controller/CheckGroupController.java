@@ -33,4 +33,16 @@ public class CheckGroupController {
         return checkGroupService.pageQuery(queryPageBean);
     }
 
+    @RequestMapping("/findById")
+    public Result findById(Integer id){
+        try {
+            CheckGroup checkGroup = checkGroupService.findById(id);
+            return new Result(true,MessageConstant.QUERY_CHECKGROUP_SUCCESS,checkGroup);
+        }catch (Exception e){
+            e.printStackTrace();
+            return new Result(false, MessageConstant.QUERY_CHECKGROUP_FAIL);
+        }
+
+    }
+
 }

@@ -328,10 +328,33 @@
                         }else {
                             this.$message.error(res.data.message);
                         }
-                    })
+                    });
                 },
                 // 弹出编辑窗口
                 handleUpdate(row) {
+                    this.dialogFormVisible4Edit = true;
+
+                    axios.get("/checkgroup/findById.do?id=" + row.id).then((res)=>{
+                        if (res.data.flag){
+                            this.formData = res.data.data;
+                        }else {
+                            this.$message.error(res.data.message);
+                        }
+                    });
+
+                    axios.get("/checked/findAll.do").then((res)=>{
+                        if(res.data.flag){
+                            this.tableData = res.data.data;
+                            axios.get("/checkgroup/findCheckItemIdsByCheckGroupID.do?id=" + row.id).then((res)=>{
+                                this.checkitemIds = res.data;
+                            });
+                        }else {
+                            this.$message.error(res.data.message);
+                        }
+                    });
+
+
+
                 },
                 //切换页码
                 handleCurrentChange(currentPage) {

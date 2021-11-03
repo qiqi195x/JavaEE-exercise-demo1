@@ -5,26 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="10.31  13:00  pre over">
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckGroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkgroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/CheckGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckGroupDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/CheckGroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckGroupDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/impl/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/CheckItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/CheckItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/CheckGroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkgroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkgroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/classes/com/itheima/controller/CheckGroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/classes/com/itheima/controller/CheckGroupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/CheckGroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/CheckGroupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/pages/checkgroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/health_backend-1.0-SNAPSHOT/pages/checkgroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/logs/access_log.2021-11-03" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/target/tomcat/logs/access_log.2021-11-03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/CheckGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/CheckGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/target/classes/com/itheima/service/CheckGroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/target/classes/com/itheima/service/CheckGroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/target/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/target/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckGroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/CheckGroupDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/CheckGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/CheckGroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckGroupDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckGroupDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckGroupDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckGroupDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckGroupDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/dao/CheckGroupDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/service/CheckGroupServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/classes/com/itheima/service/CheckGroupServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckGroupDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckGroupDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckGroupDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/CheckGroupDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/CheckGroupServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/CheckGroupServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +175,7 @@
       <workItem from="1635921894627" duration="1114000" />
       <workItem from="1635923050376" duration="1285000" />
       <workItem from="1635924350179" duration="299000" />
-      <workItem from="1635924685057" duration="671000" />
+      <workItem from="1635924685057" duration="8349000" />
     </task>
     <task id="LOCAL-00001" summary="10.30">
       <created>1635734913292</created>
