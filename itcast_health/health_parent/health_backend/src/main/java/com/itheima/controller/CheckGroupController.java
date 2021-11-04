@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/checkgroup")
 public class CheckGroupController {
@@ -42,7 +44,42 @@ public class CheckGroupController {
             e.printStackTrace();
             return new Result(false, MessageConstant.QUERY_CHECKGROUP_FAIL);
         }
+    }
+
+    @RequestMapping("/findCheckItemIdsByCheckGroupId")
+    public Result findCheckItemIdsByCheckGroupId(Integer id){
+        try {
+            List<Integer> checkitemIds = checkGroupService.findCheckItemIdsByCheckGroupId(id);
+            return new Result(true,MessageConstant.QUERY_CHECKITEM_SUCCESS,checkitemIds);
+        }catch (Exception e){
+            e.printStackTrace();
+            return new Result(false, MessageConstant.QUERY_CHECKITEM_FAIL);
+        }
+    }
+
+    @RequestMapping("/edit")
+    public Result edit(@RequestBody CheckGroup checkGroup,Integer[] checkitemIds){
+        try {
+            checkGroupService.edit(checkGroup,checkitemIds);
+        }catch (Exception e){
+            e.printStackTrace();
+            return new Result(false, MessageConstant.EDIT_CHECKGROUP_FAIL);
+        }
+        return new Result(true,MessageConstant.EDIT_CHECKITEM_SUCCESS);
+    }
+
+    @RequestMapping("/findAll")
+    public Result findAll(){
+        try {
+            List<CheckGroup> list = checkGroupService.findAll();
+            return new Result(true,MessageConstant.QUERY_CHECKGROUP_SUCCESS,list);
+        }catch (Exception e){
+            e.printStackTrace();
+            return new Result(false, MessageConstant.QUERY_CHECKGROUP_FAIL);
+        }
 
     }
+
+
 
 }
