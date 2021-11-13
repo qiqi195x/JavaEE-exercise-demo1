@@ -101,6 +101,7 @@
             </div>
         </div>
         <script>
+            var id = getUrlParam("id");//套餐id
             var vue = new Vue({
                 el:'#app',
                 data:{
@@ -113,12 +114,22 @@
                 methods:{
                     //发送验证码
                     sendValidateCode(){
+                        //获取用户输入的手机号
+                        var telephone = this.orderInfo.telephone;
+                        //校验手机号输入是否正确
+                        if (!checkTelephone(telephone)) {
+                            this.$message.error('请输入正确的手机号');
+                            return false;
+                        }
                     },
                     //提交预约
                     submitOrder(){
                     }
                 },
                 mounted(){
+                    axios.post("/setmeal/findById.do?id=" + id).then((response) => {
+                        this.setmeal = response.data.data;
+                    });
                 }
             });
         </script>
