@@ -56,4 +56,8 @@
     <select id="findById" resultMap="findByIdResultMap">
         select * from t_setmeal  where id=#{id}
     </select>
+
+    <select id="findById4Detail" parameterType="int" resultMap="findByIdResultMap">
+        select * from t_setmeal where id = #{id}
+    </select>
 </mapper>

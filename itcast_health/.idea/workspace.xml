@@ -5,17 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="10.31  13:00  pre over">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freemarkerdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freemarkerdemo/src/test/java/com/itheima/test/FreemarkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/m_setmeal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/setmeal_detail_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/setmeal_detail_14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/setmeal_detail_15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/setmeal_detail_16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/freemarker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/webapp/WEB-INF/ftl/mobile_setmeal.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/webapp/WEB-INF/ftl/mobile_setmeal_detail.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_backend_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_backend_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_jobs_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_jobs_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_mobile_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_mobile_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_service_provider_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_service_provider_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/itheima/utils/SMSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/itheima/utils/SMSUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/SetmealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/orderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/orderInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/setmeal_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/setmeal_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/SetmealDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/SetmealDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_jobs/health_jobs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_jobs/health_jobs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/SetmealServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckGroupDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckGroupDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/SetmealDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/SetmealDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-service.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +276,9 @@
       <workItem from="1636278176983" duration="10000" />
       <workItem from="1636334909714" duration="18073000" />
       <workItem from="1636448888501" duration="26000" />
-      <workItem from="1636767210635" duration="5639000" />
+      <workItem from="1636767210635" duration="6366000" />
+      <workItem from="1636787339372" duration="106000" />
+      <workItem from="1636790097155" duration="5328000" />
     </task>
     <task id="LOCAL-00001" summary="10.30">
       <created>1635734913292</created>
