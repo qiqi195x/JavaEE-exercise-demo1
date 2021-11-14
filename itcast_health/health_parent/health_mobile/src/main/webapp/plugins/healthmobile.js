@@ -81,3 +81,25 @@ function doLoop() {
         nums = 30; //重置时间
     }
 }
+
+//获得指定日期后指定天数的日期
+function getSpecifiedDate(date,days) {
+    date.setDate(date.getDate() + days);//获取指定天之后的日期
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
+    return (year + "-" + month + "-" + day);
+}
+
+/**
+ * 身份证号码校验
+ * 身份证号码为15位或者18位，15位时全为数字，18位前17位为数字，最后一位是校验位，可能为数字或字符X
+ */
+function checkIdCard(idCard){
+    var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+    if(reg.test(idCard)){
+        return true;
+    }else{
+        return false;
+    }
+}
