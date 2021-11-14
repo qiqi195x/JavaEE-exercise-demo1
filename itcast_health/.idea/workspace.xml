@@ -5,22 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="10.31  13:00  pre over">
-      <change afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/itheima/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/itheima/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/ValidateCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/MemberDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springsecuritydemo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springsecuritydemo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/springsecuritydemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/orderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/orderInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/orderSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/orderSuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/plugins/healthmobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/plugins/healthmobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/OrderSettingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/OrderSettingDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/OrderSettingDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/OrderSettingDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/ValidateCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/MemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/MemberDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/MemberDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +47,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,13 +72,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="jbr-11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/itheima/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springsecuritydemo/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,11 +96,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\mygit\itcast_health\springsecuritydemo\src\main\resources" />
+      <recent name="G:\mygit\itcast_health\health_parent\health_mobile\src\main\webapp\pages" />
       <recent name="G:\mygit\itcast_health\health_parent\health_common\src\main\java\com\itheima\utils" />
       <recent name="G:\mygit\itcast_health\health_parent\health_mobile\src\main\resources" />
       <recent name="G:\mygit\itcast_health\health_parent\health_mobile\src\main\webapp" />
-      <recent name="G:\mygit\itcast_health\health_parent\health_common\src\main\java\com\itheima\constant" />
-      <recent name="G:\mygit\itcast_health\health_parent\health_service_provider\src\main\resources\com\itheima\dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\mygit\itcast_health\health_parent\health_jobs\src\main" />
@@ -96,28 +113,13 @@
       <recent name="com.itheima.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.health_backend [tomcat7:run]">
+  <component name="RunManager" selected="Maven.springsecuritydemo [tomcat7:run]">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="POITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="health_common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.POITest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,13 +232,38 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="springsecuritydemo [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springsecuritydemo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.springsecuritydemo [tomcat7:run]" />
         <item itemvalue="Maven.health_mobile [tomcat7:run]" />
         <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
         <item itemvalue="JUnit.POITest.test3" />
         <item itemvalue="JUnit.POITest.test1" />
-        <item itemvalue="JUnit.POITest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +294,7 @@
       <workItem from="1636448888501" duration="26000" />
       <workItem from="1636767210635" duration="6366000" />
       <workItem from="1636787339372" duration="106000" />
-      <workItem from="1636790097155" duration="19451000" />
+      <workItem from="1636790097155" duration="28691000" />
     </task>
     <task id="LOCAL-00001" summary="10.30">
       <created>1635734913292</created>
