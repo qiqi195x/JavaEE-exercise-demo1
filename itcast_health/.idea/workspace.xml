@@ -5,37 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="10.31  13:00  pre over">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springsecuritydemo_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springsecuritydemo_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecuritydemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecuritydemo/springsecuritydemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/java/com/itheima/security/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/pages/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/pages/b.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/java/com/itheima/controller/ValidateCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/src/main/webapp/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/MemberDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/MemberDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/itheima/utils/SMSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/itheima/utils/SMSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springsecuritydemo/target/classes/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -294,7 +272,7 @@
       <workItem from="1636448888501" duration="26000" />
       <workItem from="1636767210635" duration="6366000" />
       <workItem from="1636787339372" duration="106000" />
-      <workItem from="1636790097155" duration="28691000" />
+      <workItem from="1636790097155" duration="34132000" />
     </task>
     <task id="LOCAL-00001" summary="10.30">
       <created>1635734913292</created>

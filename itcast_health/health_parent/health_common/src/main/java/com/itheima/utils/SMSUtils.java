@@ -30,8 +30,8 @@ public class SMSUtils {
 		final String product = "Dysmsapi";// 短信API产品名称（短信产品名固定，无需修改）
 		final String domain = "dysmsapi.aliyuncs.com";// 短信API产品域名（接口地址固定，无需修改）
 		// 替换成你的AK
-		final String accessKeyId = "LTAI5t5psJ9pKF6Ei1Vbv7vk";// 你的accessKeyId,参考本文档步骤2
-		final String accessKeySecret = "X47Pw3eZHmbiltq92d0UjMkE0LbEuw";// 你的accessKeySecret，参考本文档步骤2
+		final String accessKeyId = "LTAI5t5wgNXFmxBRECM91dkF";// 你的accessKeyId,参考本文档步骤2
+		final String accessKeySecret = "rnXECWg56ZtLMKzweezRJMXxjsU30h";// 你的accessKeySecret，参考本文档步骤2
 		// 初始化ascClient,暂时不支持多region（请勿修改）
 		IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", accessKeyId, accessKeySecret);
 		DefaultProfile.addEndpoint("cn-hangzhou", "cn-hangzhou", product, domain);
