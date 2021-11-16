@@ -3,10 +3,8 @@
     <output-path>$PROJECT_DIR$/health_parent/health_service_provider/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>false</exploded>
         <module>health_service_provider</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="health_service_provider-1.0-SNAPSHOT.war">
