@@ -99,4 +99,6 @@
     <select id="findMemberTotalCount" resultType="int">
         select count(id) from t_member
     </select>
+
+
 </mapper>
