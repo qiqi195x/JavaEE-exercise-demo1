@@ -5,17 +5,153 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f4e3f3-aa55-4964-8da4-eca22a80e556" name="Default Changelist" comment="10.31  13:00  pre over">
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/ReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/report_member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/plugins/echarts/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7_js9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jasperreports_jasperreports_6_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/jasperreports_extension.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/stsong/fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/stsong/stsong.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/report_business.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/report_setmeal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/template/health_business3.jasper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/template/health_business3.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/template/report_template.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/ReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/ReportServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_backend_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_backend_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_jobs_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_jobs_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_mobile_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_mobile_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/health_service_provider_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/health_service_provider_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/health_backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/itheima/controller/ReportController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/health_common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/health_interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/itheima/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_jobs/health_jobs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_jobs/health_jobs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_mobile/health_mobile.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/health_service_provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/SetmealDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/dao/SetmealDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/itheima/service/SetmealServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/MemberDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/MemberDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/OrderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/OrderDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/SetmealDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/itheima/dao/SetmealDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/springsecuritydemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/java/com/itheima/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/java/com/itheima/security/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/resources/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/pages/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/pages/b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/pages/c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/src/main/webapp/pages/d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/classes/com/itheima/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/classes/com/itheima/security/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/classes/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/classes/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/aliyun-java-sdk-core-3.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/curvesapi-1.03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/health_common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.12.1.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-1.18.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/jersey-core-1.18.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/json-20170516.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/okhttp-3.14.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-4.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/poi-3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/qiniu-java-sdk-7.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/springsecuritydemo-1.0-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/tomcat/logs/access_log.2021-11-14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritydemo/target/tomcat/logs/access_log.2021-11-15" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +162,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,8 +195,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="jbr-11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/plugins/echarts" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_parent/health_backend/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,49 +213,44 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\plugins\echarts" />
+      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\resources" />
+      <recent name="G:\mygit\itcast_health\health_parent\jasperReportsDemo\src\main\resources" />
+      <recent name="G:\mygit\itcast_health\health_parent\jasperReportDemo\src\main\resources" />
+      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\template" />
       <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\pages" />
-      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp" />
-      <recent name="C:\Users\Administrator\Documents\JavaEE-exercise-demo1\itcast_health\springsecuritydemo\src\main\webapp\pages" />
-      <recent name="G:\mygit\itcast_health\springsecuritydemo\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\template" />
+      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\resources" />
       <recent name="G:\mygit\itcast_health\health_parent\health_jobs\src\main" />
       <recent name="G:\mygit\itcast_health\health_parent\health_service_provider\src\main\resources" />
       <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp\WEB-INF" />
-      <recent name="G:\mygit\itcast_health\health_parent\health_service_provider\src\main\webapp\WEB-INF" />
-      <recent name="G:\mygit\itcast_health\health_parent\health_backend\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itheima.dao" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.health_backend [tomcat7:run]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="ItextDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.app.ItextDemo" />
+      <module name="itextDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="POITest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="health_common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.POITest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.health_mobile [tomcat7:run]" />
         <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
+        <item itemvalue="Application.ItextDemo" />
+        <item itemvalue="Maven.health_mobile [tomcat7:run]" />
         <item itemvalue="Maven.springsecuritydemo [tomcat7:run]" />
         <item itemvalue="JUnit.POITest.test3" />
-        <item itemvalue="JUnit.POITest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +412,12 @@
       <workItem from="1636977439471" duration="4238000" />
       <workItem from="1637028177425" duration="3942000" />
       <workItem from="1637053808418" duration="343000" />
-      <workItem from="1637054851487" duration="1071000" />
+      <workItem from="1637054851487" duration="8711000" />
+      <workItem from="1637125881519" duration="750000" />
+      <workItem from="1637126677203" duration="2625000" />
+      <workItem from="1637134330952" duration="449000" />
+      <workItem from="1637134797544" duration="116000" />
+      <workItem from="1637134980300" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="10.30">
       <created>1635734913292</created>

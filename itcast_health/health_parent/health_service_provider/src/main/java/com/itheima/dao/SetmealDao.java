@@ -18,4 +18,6 @@ public interface SetmealDao {
 
     public Setmeal findById(int id);
 
+    public List<Map<String,Object>> findSetmealCount();
+
 }
